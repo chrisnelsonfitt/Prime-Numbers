@@ -1,0 +1,36 @@
+body{
+    background:#F4F2F4;
+    color:#403F40;
+    text-align: center;
+}
+h1, h2{
+    text-align: center;
+}
+p, .container{
+    width:80%;
+    max-width:500px;
+    margin:auto;
+}
+label{
+    display: block;
+    margin-top:5px;
+}
+input{margin-top:15px;}
+.container{
+max-width: 400px;
+    
+}
+.container li{
+    text-align: left;
+    padding:5px 0px;
+    margin:15px auto;
+}
+#result{
+    color:#0B877D;
+    margin: auto;
+    max-width:500px;
+    background:white;
+    word-wrap: break-word;
+    margin-top:5px;
+    
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+ <head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>The Prime Challenge</h1>
+  <p>Create a page that will both tell you whether a number is prime or not and generate all prime numbers between two given numbers. Fork this Codepen (see top bar) and send us what you come up with.
+
+    <h2>Notes</h2>
+    <ul class="container">
+      <li>There shouldn't be a submit button anywhere on this page, it should generate results as the user types.</li>
+      <li>There should be form valiation, if the user puts in a non-integer show an error message.</li>
+      <li>This is your chance to show us some design skills as well. Make this responsive and look decent. You don't need to spend a ton of time on this, but make it better than it is now.</li>
+      <li>Feel free to look at algorithms that exist already for determining prime numbers, you don't need to create your own algorithm. I'd recommend the Sieve of Eratosthenes.</li>
+    </ul>
+
+
+    <h2>Prime Checker</h2>
+
+    <label for="start">Enter number to test</label>
+    <input id="number" type="number" min = "0" step="1" pattern="[0-9]"  maxlength="9" />
+
+    <label for="result">Results:</label>
+    <h4 id="isresult"></h4>
+
+    <h2>Generate Prime numbers.</h2>
+    <div id = "listNumbers">
+      <label for="start">Enter Starting Number (optional)</label>
+      <input id="start" type="number" min = "0" step="1" pattern="[0-9]" maxlength="7" />
+      <label for="end">Enter Ending Number (required)</label>
+      <input id="end" type="number" min = "0" step="1"  maxlength="8" />
+
+      <label id="resultlabel" for="result">Prime Number(s)</label><br>
+      <h4 id="result"></h4>
+    </div>
+<script src="app.js"></script>
+</body>
